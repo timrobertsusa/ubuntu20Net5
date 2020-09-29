@@ -1,1 +1,30 @@
+{
 
+	"name": "Ubuntu",
+
+	"image": "mcr.microsoft.com/dotnet/sdk:5.0-focal",
+
+
+  	"forwardPorts": [5100, 5200],
+
+    	"extensions": [
+		"docsmsft.docs-authoring-pack",
+		"donjayamanne.githistory",
+      		"eamodio.gitlens",
+      		"editorconfig.editorconfig",
+		"github.vscode-pull-request-github",
+	      	"jongrant.csharpsortusings",
+	      	"k--kato.docomment",
+	      	"kreativ-software.csharpextensions",
+	      	"mhutchie.git-graph",
+	      	"ms-dotnettools.csharp",
+	      	"ms-vscode.powershell",
+	      	"ms-vscode.vscode-node-azure-pack",
+	      	"ms-vsliveshare.vsliveshare",
+	      	"visualstudioexptteam.vscodeintellicode",
+	      	"yzhang.markdown-all-in-one"
+    		],
+
+	"containerEnv": { "DOGVAR": "Cosmo" }
+
+}
